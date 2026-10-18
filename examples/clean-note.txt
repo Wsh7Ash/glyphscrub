@@ -1,0 +1,11 @@
+Clean control document for glyphscrub.
+
+This file contains normal ASCII, accents, tabs and newlines, and must scan
+with zero findings. It is the control sample for the demo script.
+
+Invoice 4200 was paid on 2026-10-18.
+Accented words: naïve, café, résumé.
+Cyrillic control words are fine on their own: оплата, счёт, платёж.
+Nested punctuation ("quotes", em—dash, ellipsis…) is fine too.
+
+End of clean document.

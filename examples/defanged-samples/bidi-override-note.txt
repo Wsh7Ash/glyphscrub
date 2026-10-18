@@ -1,0 +1,12 @@
+DEFANGED SAMPLE — structural fixture for glyphscrub. Not an attack.
+
+The next line starts with U+202E (RIGHT-TO-LEFT OVERRIDE), the Trojan Source
+class of character. In a renderer it reverses how the rest of the line is
+displayed while the underlying bytes stay unchanged.
+
+RLO sequence begins here: [‮]segment-‬a5[end]
+
+Expected detector result:
+  category  = bidi-control
+  severity  = high
+  codepoint = U+202E

@@ -1,0 +1,14 @@
+DEFANGED SAMPLE - structural fixture for glyphscrub. Not an attack.
+
+The bracketed run below consists of Unicode tag characters (U+E0000..U+E007F).
+They render as nothing at all in most editors, but a model tokenizer still reads
+them, so a filter that only looks at the rendered text never sees this text.
+
+visible text before: budget-report
+HIDDEN TAG RUN (invisible in brackets): [󠁨󠁢󠁵󠁤󠁧󠁥󠁴] and [󠀭󠁸]
+visible text after: complete
+
+Expected detector result:
+  category  = tag-character
+  severity  = high
+  count     = 9 (7 tag characters in the first run + 2 in the second)

@@ -1,0 +1,34 @@
+tag-charset-note.txt: 9 finding(s), max severity high
+
+#  SEV   CATEGORY       POSITION        CODEPOINT  NAME
+-  ----  -------------  --------------  ---------  ------------------------
+1  HIGH  tag-character  line 8, col 42  U+E0068    TAG LATIN SMALL LETTER H
+2  HIGH  tag-character  line 8, col 43  U+E0062    TAG LATIN SMALL LETTER B
+3  HIGH  tag-character  line 8, col 44  U+E0075    TAG LATIN SMALL LETTER U
+4  HIGH  tag-character  line 8, col 45  U+E0064    TAG LATIN SMALL LETTER D
+5  HIGH  tag-character  line 8, col 46  U+E0067    TAG LATIN SMALL LETTER G
+6  HIGH  tag-character  line 8, col 47  U+E0065    TAG LATIN SMALL LETTER E
+7  HIGH  tag-character  line 8, col 48  U+E0074    TAG LATIN SMALL LETTER T
+8  HIGH  tag-character  line 8, col 56  U+E002D    TAG HYPHEN-MINUS
+9  HIGH  tag-character  line 8, col 57  U+E0078    TAG LATIN SMALL LETTER X
+
+1. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …nvisible in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible…
+2. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …visible in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible …
+3. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …isible in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible t…
+4. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …sible in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible te…
+5. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …ible in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible tex…
+6. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …ble in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible text…
+7. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …le in brackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible text …
+8. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …ackets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible text after: c…
+9. [high] tag-character: Unicode tag character — invisible text that tokenizers still see (ASCII smuggling)
+   context: …ckets): [<TAG><TAG><TAG><TAG><TAG><TAG><TAG>] and [<TAG><TAG>]<000A>visible text after: co…
+
+category totals: tag-character=9
